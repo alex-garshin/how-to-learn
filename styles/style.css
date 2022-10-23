@@ -215,6 +215,7 @@ body {
 }
 
 .feyman__link {
+  text-decoration: none;
   position: absolute;
   right: 48px;
   top: 50%;
@@ -292,6 +293,13 @@ body {
   flex-direction: column;
 }
 
+.footer__column-link {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+}
 .footer__column_content_copyright__author {
   font-size: 18px;
   line-height: 25px;
@@ -308,7 +316,7 @@ body {
   z-index: 1;
 }
 
-.social__icon {
+.footer__social__icon {
   display: flex;
   column-gap: 10px;
   align-items: center;
