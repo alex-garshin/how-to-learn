@@ -293,6 +293,11 @@ body {
   flex-direction: column;
 }
 
+.footer__column-links__link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer__column-link {
   font-size: 18px;
   line-height: 30px;
@@ -320,6 +325,8 @@ body {
   display: flex;
   column-gap: 10px;
   align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 .social__icon__item {
