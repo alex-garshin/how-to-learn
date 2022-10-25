@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-.header__logo_place {
+.header__logo_place_header {
   position: absolute;
   width: 228px;
   height: 32px;
@@ -305,7 +305,7 @@
   flex-direction: column;
 }
 
-.header__logo_footer {
+.header__logo_place_footer {
   width: 228px;
   height: 32px;
 }
